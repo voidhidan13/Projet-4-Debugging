@@ -244,6 +244,47 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+footer {
+    display: flex;
+    gap: 60px;
+    align-items: flex-start; /* Alignement des éléments en haut */
+    justify-content: center;
+	padding: 40px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0; /* Supprime le padding par défaut */
+    margin: 0;  /* Supprime le margin par défaut */
+}
+
+#coordonnées ul,
+#réseaux_sociaux ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Ajoute de l'espace entre les éléments de la liste */
+}
+
+.twitter {
+    width: 17px;
+    height: 20px;
+}
+
+.facebook {
+    width: 20px;
+    height: 20px;
+}
+
+footer li {
+    display: flex;
+    gap: 10px;
+    align-items: center; /* Aligne l'icône et le texte verticalement */
+}
+
+footer li img {
+    position: relative;
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
