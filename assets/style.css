@@ -35,7 +35,8 @@ body {
 
 .nav a {
 	text-decoration: none;
-	color: #000
+	color: #000;
+	cursor: pointer;
 }
 
 .social-link img {
@@ -113,10 +114,12 @@ body {
 	color: #000; 
 	background-color: #BEB45A; 
 	border-radius:0 ;
+	cursor: pointer;
 	
 }
 .nav-pills .nav-link {
-	color: #000
+	color: #000;
+	cursor: pointer;
 }
 .item-column {
 	position: relative;
